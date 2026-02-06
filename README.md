@@ -1,3 +1,14 @@
-#Benny's custom website
+# Benny Fang Portfolio (Vue)
 
-This is my first project in writing my own custom website. By doing so I hope to obtain more experiences necessary for my future career at web development. I will constantly update and maintain the site as I acquire more skills to do so and put possible improvements. Please take a further look at bennyfang.github.io
+This project uses Vue 3 via a CDN so it can run without a local build step.
+
+## Getting started
+
+You can open `index.html` directly, or run a tiny static server so browser module
+imports work consistently:
+
+```bash
+python3 -m http.server 4173
+```
+
+Then visit `http://localhost:4173`.
