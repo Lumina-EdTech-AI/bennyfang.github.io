@@ -218,6 +218,33 @@ a {
   line-height: 1.7;
 }
 
+.education-card {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.education-logo {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 56px;
+  object-fit: contain;
+}
+
+.education-logo-wide {
+  width: 88px;
+  flex-basis: 88px;
+}
+
 .stats {
   display: grid;
   gap: 1.5rem;
@@ -284,9 +311,47 @@ a {
   box-shadow: 0 15px 40px rgba(15, 23, 42, 0.06);
 }
 
-.timeline-item p {
+.timeline-item p,
+.timeline-item li {
   color: #475569;
   line-height: 1.6;
+}
+
+.timeline-date {
+  margin-bottom: 0.4rem;
+  color: #6366f1 !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.timeline-role {
+  margin: 0.25rem 0 0.75rem;
+  font-weight: 600;
+}
+
+.timeline-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-logo {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.timeline-item ul {
+  padding-left: 1.25rem;
+}
+
+.timeline-item li + li {
+  margin-top: 0.4rem;
 }
 
 .contact {
@@ -334,4 +399,5 @@ a {
   .contact-card {
     padding: 2.5rem;
   }
+
 }
