@@ -20,7 +20,7 @@ const HeroSection = {
           <p class="lead">
             I am Benny, a full-stack developer and technical leader with 8+
             years of experience delivering cloud-based education and workforce
-            solutions for more than 10,000 users.
+            solutions for more than 1,000,000 users.
           </p>
           <div class="hero-actions">
             <a class="primary" href="mailto:bfang.01234@gmail.com">Email Me</a>
@@ -35,7 +35,7 @@ const HeroSection = {
             </div>
             <div>
               <span>Platform Reach</span>
-              <strong>10,000+ Users</strong>
+              <strong>1,000,000+ Users</strong>
             </div>
           </div>
         </div>
